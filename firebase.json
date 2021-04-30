@@ -32,6 +32,10 @@
         "dynamicLinks": true
       },
       {
+        "source": "/join-beta",
+        "destination": "/beta.html"
+      },
+      {
         "source": "!/share/**",
         "destination": "/index.html"
       }
