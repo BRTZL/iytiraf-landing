@@ -62,72 +62,19 @@
 
       return "unknown";
     }
+
+    switch (getMobileOperatingSystem()) {
+      case "iOS":
+        // window.open("https://testflight.apple.com/join/6OSICCGx", "_self")
+        break;
+      case "Android":
+        // window.open("https://testflight.apple.com/join/6OSICCGx", "_self")
+        break;
+      default:
+        window.open("https://iytiraf.com", "_self")
+        break;
+    }
   </script>
 </head>
-
-<body class="is-preload">
-  <header id="header">
-    <div class="content">
-      <div>
-        <h1>
-          iytiraf beta
-        </h1>
-        <h3>
-          İstediğin işletim sistemi için beta grubuna katılabilirsin
-        </h3>
-      </div>
-
-      <div>
-        <ul class="actions">
-          <li>
-            <a class="button">
-              <i class="fab fa-google-play" style="padding-right: 6px;"></i>
-              Play Store
-            </a>
-          </li>
-          <li>
-            <a class="button" href="https://testflight.apple.com/join/6OSICCGx">
-              <i class="fab fa-app-store-ios" style="padding-right: 6px;padding-top: 6px;"></i>
-              App Store
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <a class="button" target="_blank" href="mailto:bartuozel@gmail.com?subject=iytiraf%20beta">
-          <i class="far fa-paper-plane" style="padding-right: 6px;padding-top: 6px;"></i>
-          Mail
-        </a>
-      </div>
-    </div>
-    <div class="iphonex" style="margin: 0 2em 6em 2em">
-      <div class="front">
-        <div class="screen">
-          <div class="screen__front">
-            <div class="screen__front-speaker"></div>
-            <div class="screen__front-camera"></div>
-          </div>
-          <div class="screen__view">
-            <img src="images/post_feed-min.png" style="width: 17.2em;" />
-            <div class="hello">
-              <img src="assets/iytiraf_logo.svg" style="width: 4em;" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-
-
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.scrolly.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-
-</body>
 
 </html>
