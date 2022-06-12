@@ -36,6 +36,18 @@
         "destination": "/beta.html"
       },
       {
+        "source": "/cookie-policy",
+        "destination": "/cookie-policy.html"
+      },
+      {
+        "source": "/privacy-policy",
+        "destination": "/privacy-policy.html"
+      },
+      {
+        "source": "/terms-of-use",
+        "destination": "/terms-of-use.html"
+      },
+      {
         "source": "!/share/**",
         "destination": "/index.html"
       }
